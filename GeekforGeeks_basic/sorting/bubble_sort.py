@@ -13,10 +13,10 @@ def bubble(arr:List[int],n:int) -> List[int]:
     return arr
 
 
-__name__ == "__main__"
-n=int(input("enter the number of elements of the array: "))   
-arr=list(map(int, input("enter the elements of the array: ").strip().split()))[:n]
-print(bubble(arr,n) )
+if __name__ == "__main__":
+    n=int(input("enter the number of elements of the array: "))   
+    arr=list(map(int, input("enter the elements of the array: ").strip().split()))[:n]
+    print(bubble(arr,n) )
 
 # Time Complexity: O(n^2) in the worst case, O(n) in the best case
 # Space Complexity: O(1) as it sorts the array in place     

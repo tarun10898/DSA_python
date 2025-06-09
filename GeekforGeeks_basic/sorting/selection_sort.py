@@ -15,12 +15,12 @@ def selectionSort(arr:List[int]) -> List[int]:
 
 
 
-__name__ == "__main__"
-n=int(input("enter the number of elements of the list"))
-arr=list(map(int,input("enter the elements of the array: ").strip().split()))[:n]
-result = selectionSort(arr)
-print(result)
-# Time Complexity: O(n^2) in the worst case, O(n) in the best case
+if __name__ == "__main__":
+    n=int(input("enter the number of elements of the list"))
+    arr=list(map(int,input("enter the elements of the array: ").strip().split()))[:n]
+    result = selectionSort(arr)
+    print(result)
+    # Time Complexity: O(n^2) in the worst case, O(n) in the best case
 # Space Complexity: O(1) as it sorts the array in place
 # Stable: No, it does not maintain the relative order of equal elements
 # In-place: Yes, it does not require additional space for sorting
