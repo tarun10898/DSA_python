@@ -140,7 +140,7 @@ if __name__ == "__main__" :
 # The modified array is printed after the rotation.
 # Example:      
 # Input:
-# enter the number of the elements in the array: 5  
+# enter the number of the elements in the array: 5
 # enter the elements of the array: 1 2 3 4 5
 # enter the value of x: 2
 # Output:
