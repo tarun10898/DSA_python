@@ -13,6 +13,8 @@ def zeros(arr:List[int],n:int) -> List[int]:
         temp.append(0)        
     return temp
 
+# time complexity : O(n)
+# space complexity:O(n)
 
 if __name__ == "__main__":
     n=int(input("enter the no of elements in the array"))
@@ -20,7 +22,7 @@ if __name__ == "__main__":
     print(zeros(arr,n))
 
 
-# optimize solution
+# optimize
 
 
 
@@ -39,3 +41,6 @@ if __name__ == "__main__":
     n=int(input("enter the elements in the array"))
     arr=list(map(int,input("enter the numbe of elements of the array").strip().split()))
     print(zeros(arr,n))
+
+# time complexity : O(n)
+# space complexity:O(1)
